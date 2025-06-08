@@ -1,0 +1,94 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Class Name -->
+        <TextView
+            android:id="@+id/tvClassName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yoga Avanzado"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Class Time -->
+        <TextView
+            android:id="@+id/tvClassTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunes 9-10, Martes 16-17"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp" />
+
+        <!-- Instructor and Capacity -->
+        <TextView
+            android:id="@+id/tvClassInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profesor: Ana López, Capacidad: 12/20"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp" />
+
+        <!-- Class Location -->
+        <TextView
+            android:id="@+id/tvClassLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clase A"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp" />
+
+        <!-- Buttons aligned to right -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="6dp">
+
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:minHeight="36dp"
+                android:minWidth="64dp"
+                android:elevation="2dp"
+                android:layout_marginEnd="6dp"
+                android:visibility="visible" />
+
+            <!-- Drop Out Button -->
+            <Button
+                android:id="@+id/btnDropOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drop Out"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:minHeight="36dp"
+                android:minWidth="64dp"
+                android:elevation="2dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

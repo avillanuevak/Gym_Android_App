@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Projecte</string>
+    <string name="class_name_placeholder">Class Name</string>
+    <string name="class_info_placeholder">Instructor: [Name], Capacity: [Current]/[Max]</string>
+    <string name="class_time_placeholder">Time: [Time]</string>
+    <string name="class_location_placeholder">Location: [Location]</string>
+
+    <string name="no_classes_registered">You are not registered for any classes</string>
+    <string name="error_loading_classes">Error loading classes: %1$s</string>
+</resources>

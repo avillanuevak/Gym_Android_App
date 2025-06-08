@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="16dp"
+app:cardCornerRadius="12dp"
+app:cardElevation="8dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/routineNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Routine Name"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Days:"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/checkboxLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <!-- CheckBoxes como antes con 48dp -->
+        <CheckBox android:id="@+id/checkboxMonday" android:layout_width="0dp" android:layout_height="48dp" android:minWidth="48dp" android:minHeight="48dp" android:layout_weight="1" android:text="M" android:gravity="center" />
+        <CheckBox android:id="@+id/checkboxTuesday" android:layout_width="0dp" android:layout_height="48dp" android:minWidth="48dp" android:minHeight="48dp" android:layout_weight="1" android:text="T" android:gravity="center" />
+        <CheckBox android:id="@+id/checkboxWednesday" android:layout_width="0dp" android:layout_height="48dp" android:minWidth="48dp" android:minHeight="48dp" android:layout_weight="1" android:text="W" android:gravity="center" />
+        <CheckBox android:id="@+id/checkboxThursday" android:layout_width="0dp" android:layout_height="48dp" android:minWidth="48dp" android:minHeight="48dp" android:layout_weight="1" android:text="T" android:gravity="center" />
+        <CheckBox android:id="@+id/checkboxFriday" android:layout_width="0dp" android:layout_height="48dp" android:minWidth="48dp" android:minHeight="48dp" android:layout_weight="1" android:text="F" android:gravity="center" />
+        <CheckBox android:id="@+id/checkboxSaturday" android:layout_width="0dp" android:layout_height="48dp" android:minWidth="48dp" android:minHeight="48dp" android:layout_weight="1" android:text="S" android:gravity="center" />
+        <CheckBox android:id="@+id/checkboxSunday" android:layout_width="0dp" android:layout_height="48dp" android:minWidth="48dp" android:minHeight="48dp" android:layout_weight="1" android:text="S" android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveRoutineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE ROUTINE"
+        android:backgroundTint="#1A237E"
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

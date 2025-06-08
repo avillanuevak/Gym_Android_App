@@ -1,0 +1,3 @@
+/build
+# Ignore all files in the assets folder
+/app/src/main/assets/*

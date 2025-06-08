@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <!-- Top Part: Image and Exercise Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/ivExerciseImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="#F5F5F5" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/tvExerciseName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exercise Name"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A237E"
+                    android:layout_marginBottom="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Middle Part: Counters -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2"
+            android:layout_marginTop="12dp">
+
+            <!-- Sets -->
+            <TableRow
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sets:"
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginEnd="8dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDecreaseSets"
+                    android:layout_width="77dp"
+                    android:layout_height="40dp"
+                    android:text="-"
+                    android:textSize="18sp"
+                    app:backgroundTint="#1A237E"
+                    app:cornerRadius="20dp" />
+
+                <TextView
+                    android:id="@+id/tvSets"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#333333"
+                    android:background="@drawable/counter_background"
+                    android:layout_marginHorizontal="8dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnIncreaseSets"
+                    android:layout_width="75dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:textSize="18sp"
+                    app:backgroundTint="#1A237E"
+                    app:cornerRadius="20dp" />
+            </TableRow>
+
+            <!-- Reps -->
+            <TableRow
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reps:"
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginEnd="8dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDecreaseReps"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:cornerRadius="20dp"
+                    android:text="-"
+                    android:textSize="18sp"
+                    app:backgroundTint="#1A237E" />
+
+                <TextView
+                    android:id="@+id/tvReps"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#333333"
+                    android:background="@drawable/counter_background"
+                    android:layout_marginHorizontal="8dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnIncreaseReps"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:cornerRadius="20dp"
+                    android:text="+"
+                    android:textSize="18sp"
+                    app:backgroundTint="#1A237E" />
+            </TableRow>
+
+            <!-- Weight -->
+            <TableRow
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight:"
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginEnd="8dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDecreaseWeight"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:cornerRadius="20dp"
+                    android:text="-"
+                    android:textSize="18sp"
+                    app:backgroundTint="#1A237E" />
+
+                <TextView
+                    android:id="@+id/tvWeight"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="0 kg"
+                    android:textColor="#333333"
+                    android:background="@drawable/counter_background"
+                    android:layout_marginHorizontal="8dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnIncreaseWeight"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:cornerRadius="20dp"
+                    android:text="+"
+                    android:textSize="18sp"
+                    app:backgroundTint="#1A237E" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- Bottom Delete Button -->
+        <Button
+            android:id="@+id/btnRemoveExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="DELETE"
+            android:textStyle="bold"
+            android:backgroundTint="#E53935"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

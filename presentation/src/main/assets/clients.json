@@ -1,0 +1,37 @@
+[
+  {
+    "username": "jcena",
+    "email": "jcena@gmail.com",
+    "password": "1234",
+    "passwordConfirmation": "1234",
+    "urlPhoto": "https://example.com/photos/jcena.jpg"
+  },
+  {
+    "username": "admin",
+    "email": "admin@example.com",
+    "password": "admin",
+    "passwordConfirmation": "admin",
+    "urlPhoto": "https://example.com/photos/admin.jpg"
+  },
+  {
+    "username": "maria88",
+    "email": "maria88@gmail.com",
+    "password": "mypass",
+    "passwordConfirmation": "mypass",
+    "urlPhoto": "https://example.com/photos/maria88.jpg"
+  },
+  {
+    "username": "pablo_rock",
+    "email": "pablo_rock@gmail.com",
+    "password": "securepass",
+    "passwordConfirmation": "securepass",
+    "urlPhoto": "https://example.com/photos/pablo_rock.jpg"
+  },
+  {
+    "username": "lauraSky",
+    "email": "laurasky@gmail.com",
+    "password": "strongpwd",
+    "passwordConfirmation": "strongpwd",
+    "urlPhoto": "https://example.com/photos/laurasky.jpg"
+  }
+]

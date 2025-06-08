@@ -1,0 +1,64 @@
+[33m4d230d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeat/login[m[33m, [m[1;31morigin/feat/login[m[33m)[m HEAD@{0}: pull origin feat/login: Fast-forward
+[33m894e84d[m HEAD@{1}: reset: moving to HEAD
+[33m894e84d[m HEAD@{2}: reset: moving to HEAD
+[33m894e84d[m HEAD@{3}: pull origin feat/sign-up: updating HEAD
+[33m894e84d[m HEAD@{4}: pull origin feat/sign-up: updating HEAD
+[33m894e84d[m HEAD@{5}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{6}: checkout: moving from feat/login to feat/sign-up
+[33m894e84d[m HEAD@{7}: commit: Añadidos nuevos archivos y modificaciones para el login
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{8}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{9}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{10}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{11}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{12}: pull origin main: Fast-forward
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{13}: checkout: moving from main to feat/login
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{14}: checkout: moving from feat/login to main
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{15}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{16}: checkout: moving from feat/login to feat/sign-up
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{17}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{18}: checkout: moving from feat/login to feat/sign-up
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{19}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{20}: checkout: moving from feat/login to feat/sign-up
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{21}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{22}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{23}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{24}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{25}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{26}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{27}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{28}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{29}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{30}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{31}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{32}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{33}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{34}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{35}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{36}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{37}: pull origin main: Fast-forward
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{38}: checkout: moving from feat/login to feat/login
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{39}: branch: Reset to origin/feat/login
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{40}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{41}: checkout: moving from feat/login to feat/sign-up
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{42}: checkout: moving from 14c4e706e780e0c6822c823a635b7d4a3ce3ba3f to feat/login
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{43}: checkout: moving from feat/gestion-clases to origin/feat/login
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{44}: reset: moving to origin/feat/login
+[33m0ef3531[m[33m ([m[1;31morigin/feat/gestion-clases[m[33m)[m HEAD@{45}: checkout: moving from feat/sign-up to feat/gestion-clases
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{46}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{47}: pull origin main: Fast-forward
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{48}: checkout: moving from feat/login to feat/login
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{49}: branch: Reset to origin/feat/login
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{50}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{51}: checkout: moving from feat/login to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{52}: rebase: checkout feat/login
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{53}: rebase: checkout feat/login
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{54}: rebase: checkout feat/login
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{55}: rebase: checkout feat/login
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{56}: pull origin main: Fast-forward
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{57}: checkout: moving from main to feat/login
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{58}: checkout: moving from feat/sign-up to main
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{59}: checkout: moving from main to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{60}: checkout: moving from feat/login to main
+[33m14c4e70[m[33m ([m[1;32mfeat/gestion-clases[m[33m)[m HEAD@{61}: checkout: moving from feat/sign-up to feat/login
+[33m6f7eda0[m[33m ([m[1;32mfeat/sign-up[m[33m)[m HEAD@{62}: checkout: moving from main to feat/sign-up
+[33me0c9b9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{63}: clone: from https://github.com/ProjecteIntegratDeSoftware-24-25/projecte-jayd0.git

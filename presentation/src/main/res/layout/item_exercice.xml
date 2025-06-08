@@ -1,0 +1,88 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Class Name -->
+        <TextView
+            android:id="@+id/tvEjercicioName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PressBanca"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Class Location -->
+        <TextView
+            android:id="@+id/tvDescriptionExercice"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="2dp"
+            android:text="Es un ejercicio para pecho"
+            android:textSize="14sp" />
+
+        <!-- Buttons aligned to right -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/btnAddExericise"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_marginEnd="6dp"
+                android:backgroundTint="?attr/colorPrimary"
+                android:elevation="2dp"
+                android:minWidth="64dp"
+                android:minHeight="36dp"
+                android:text="Añadir a rutina"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <!-- Drop Out Button -->
+            <Button
+                android:id="@+id/btnRemoveExericise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:elevation="2dp"
+                android:minWidth="64dp"
+                android:minHeight="36dp"
+                android:text="Quitar de rutina"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- ImageView directly added -->
+        <ImageView
+            android:id="@+id/imagenExercice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/placeholder_image"
+
+            />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+

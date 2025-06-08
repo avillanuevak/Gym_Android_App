@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113430642785",
+    "project_id": "projecte-jady0",
+    "storage_bucket": "projecte-jady0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113430642785:android:d89a62686522ad9ecf6a20",
+        "android_client_info": {
+          "package_name": "edu.ub.pis2425.projecte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzy2qhzyEYf8d-BpZw__VRUX199HO2egA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

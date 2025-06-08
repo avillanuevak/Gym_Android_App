@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'edu.ub.pis2425.projectejady0.data'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 28
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+}
+
+dependencies {
+    // Firebase BoM (Bill of Materials) - manages all Firebase library versions
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+
+    // Firebase dependencies (versions managed by BoM)
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+
+    // Remove these server-side dependencies
+    // implementation 'com.google.firebase:firebase-admin:9.2.0'
+    // implementation 'com.google.api-client:google-api-client-android:2.2.0'
+
+    // Core dependencies
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.modelmapper:modelmapper:2.4.4'
+
+    // AndroidX and Material
+    implementation libs.appcompat
+    implementation libs.material
+
+    // Project modules
+    implementation project(':domain')
+
+    // Testing
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+
+    // Crashlytics (if needed)
+    implementation libs.firebase.crashlytics.buildtools
+
+    implementation libs.rxjava3
+    implementation libs.rxjava3.android
+}

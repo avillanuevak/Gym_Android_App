@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Contenido principal: RecyclerView y formulario -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="56dp"> <!-- Aumentado el margen para dar espacio a la barra de navegación -->
+
+        <!-- RecyclerView para mostrar los ejercicios -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewEjercicios"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/signup_background"
+            android:elevation="10dp"
+            android:visibility="visible" />
+
+        <!-- Formulario para añadir un ejercicio -->
+        <LinearLayout
+            android:id="@+id/formAddExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/editTextExerciseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre del ejercicio"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextExerciseDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Descripción del ejercicio"
+                android:inputType="textMultiLine" />
+
+            <!-- Vista previa de la imagen seleccionada -->
+            <ImageView
+                android:id="@+id/imagePreview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Vista previa de la imagen"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buttonUploadPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cargar foto" />
+
+            <Button
+                android:id="@+id/buttonSaveExercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar ejercicio"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Botón flotante para añadir un ejercicio -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/primaryColor"
+        android:contentDescription="Add Exercise"
+        android:src="@drawable/ic_add" />
+
+    <!-- Incluir la barra de navegación (activity_base) -->
+    <include
+        layout="@layout/activity_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
